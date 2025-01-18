@@ -1,0 +1,55 @@
+img{
+    width: 15rem;
+}
+.home{
+    background-color:#1ABC9C;
+    padding: 90px 0 50px 0;
+}
+.caption h1{
+    color: #FFFFFF;
+    font-size: 4.5rem;
+    position: relative;
+    margin-top: 1rem;
+}
+
+i{
+    color: #FFFFFF;
+    position: relative;
+    top: 30%;
+    left: 50%;
+
+}
+
+.pseudo{
+    width: 300px;
+}
+
+.caption{
+    width: 500px;
+}
+
+.editPosition{
+    top: 99%;
+}
+.pseudo::after{
+    content: '';
+    width: 130px;
+    height: 4px;
+    position: absolute;
+    background-color: #FFFFFF;
+    left:20%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+.pseudo::before{
+    content: '';
+    width: 130px;
+    height: 4px;
+    position: absolute;
+    background-color: #FFFFFF;
+    left:80%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}

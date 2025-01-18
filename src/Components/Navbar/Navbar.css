@@ -1,0 +1,36 @@
+*{
+    font-family: "Montserrat", serif;
+}
+.navbar {
+    --bs-navbar-brand-color:#FFFFFF;
+    --bs-navbar-brand-hover-color:#FFFFFF;
+}
+.bg-body-tertiary{
+    background-color: #2C3E50 !important;
+}
+.navbar-nav .nav-link{
+    color: #FFFFFF !important;
+    transition: all 0.3s ease;
+    font-weight: 700;
+    font-size: 1rem;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.navbar-nav{
+    width: 470px;
+}
+.navbar-brand{
+    font-weight: 600;
+}
+.navbar-nav .nav-link.active{
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    background-color: #1ABC9C;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.navbar-nav .nav-link.active:hover{
+    color: #1ABC9C;
+}

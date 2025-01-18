@@ -1,0 +1,41 @@
+h4{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+#Footer{
+    padding: 50px 0 0;
+    background-color: #2C3E50;
+}
+#paraFooter{
+    font-weight: 700;
+}
+.logos ul{
+    list-style: none;
+    width: 300px;
+}
+.logos ul li a i{
+    font-size: 1.1rem;
+}
+.logos ul li{
+    background-color: #2C3E50;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    outline: #FFFFFF 1px solid;
+    transition: all 0.2s ease;
+
+    &:hover{
+        background-color: #FFFFFF;
+
+        i{
+            color: #000;
+        }
+    }
+}
+.paraContext{
+    width: 200px;
+}
+#paraFooter{
+    width: 410px;
+}
